@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>{% if page.title %} {{ page.title }}{% else %} {{ site.title }} {% endif %}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+  <noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+  <script src="/assets/js/modernizr.custom.js" ></script>
+</head>
+<body class="is-loading" id="loadmenu">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+    <!--
+      <a href="#" title="Home">Home</a>
+      <a href="#" title="Blog">Blog</a>
+      <a href="#" title="Work">Sobre mim</a>
+      <a href="#" title="Resources">Projetos</a>
+      <a href="#" title="Meta">Feed</a>
+    -->
+    {% for page in site.pages %}
+      {% if page.menutitle == "Home" %}
+        <li><a href="{{ page.url }}">{{ page.menutitle }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% for page in site.pages %}
+      {% if page.menutitle != "Home" and page.menutitle != "Feed"%}
+        <li><a href="{{ page.url }}">{{ page.menutitle }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% for page in site.pages %}
+      {% if page.menutitle == "Feed" %}
+        <li><a href="{{ page.url }}">{{ page.menutitle }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div id="bgOpacity" onclick="closeMenu()"></div>
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- Main -->
+    <section id="main">
+      <header>
+        <span class="avatar"><img width="150px" src="/images/eu.png" alt="" /></span>
+        <h1>Giovanni Bernini</h1>
+        <p>Front-End Developer</p>
+        <ul class="icons">
+          <li><a href="https://giovannibernini.com.br/feed.xml" class="fa-rss">Blog</a></li>
+          <li><a href="https://github.com/giioohbernini" class="fa-github">Github</a></li>
+          <li><a href="https://twitter.com/giioohbernini" class="fa-twitter">Twitter</a></li>
+        </ul>
+      </header>
+    </section>
+
+    <div id="scrolldown"> 
+      <a href="#content">
+        <img id="setabaixo" src="/images/setabaixo.svg" width="40px" height="40px" alt="" onclick="scrollHome()">
+      </a>
+    </div>
+
+
+  </div>
+    <!-- <div class="fixedmenu">
+      <nav>
+        <ul>
+          <li><a href="">Menu</a></li>
+          <li><a href="">Outro</a></li>
+        </ul>
+      </nav>
+    </div> -->
+    <section class="menu" id="sectionMenu">
+      <nav id="navmenu">
+        <ul class="navbar" id="topnav">
+          {% for page in site.pages %}
+            {% if page.menutitle == "Home" %}
+              <li><a href="{{ page.url }}">{{ page.menutitle }}</a></li>
+            {% endif %}
+          {% endfor %}
+          {% for page in site.pages %}
+            {% if page.menutitle != "Home" and page.menutitle != "Feed"%}
+              <li><a href="{{ page.url }}">{{ page.menutitle }}</a></li>
+            {% endif %}
+          {% endfor %}
+          {% for page in site.pages %}
+            {% if page.menutitle == "Feed" %}
+              <li><a href="{{ page.url }}">{{ page.menutitle }}</a></li>
+            {% endif %}
+          {% endfor %}
+          <li class="iconMenu" id="gb">
+            <a href="javascript:void(0);"></a>
+          </li>
+          <li class="iconMenu">
+            <a href="javascript:void(0);" onclick="openMenu()">&#9776;</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
