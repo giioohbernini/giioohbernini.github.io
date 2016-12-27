@@ -79,7 +79,7 @@
             {% endif %}
           {% endfor %}
           {% for page in site.pages %}
-            {% if page.menutitle != "Home" and page.menutitle != "Feed"%}
+            {% if page.menutitle != "Home" and page.menutitle != "Feed" and page.menutitle != ""%}
               <li><a href="{{ page.url }}">{{ page.menutitle }}</a></li>
             {% endif %}
           {% endfor %}
