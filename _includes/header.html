@@ -27,7 +27,7 @@
       {% endif %}
     {% endfor %}
     {% for page in site.pages %}
-      {% if page.menutitle != "Home" and page.menutitle != "Feed" and page.menutitle != ""%}
+      {% if page.menutitle != "Home" and page.menutitle != "Feed" and page.url != "/assets/css/style.css" %}
         <li><a href="{{ page.url }}">{{ page.menutitle }}</a></li>
       {% endif %}
     {% endfor %}
@@ -79,7 +79,7 @@
             {% endif %}
           {% endfor %}
           {% for page in site.pages %}
-            {% if page.menutitle != "Home" and page.menutitle != "Feed" and page.menutitle != ""%}
+            {% if page.menutitle != "Home" and page.menutitle != "Feed" and page.url != "/assets/css/style.css" %}
               <li><a href="{{ page.url }}">{{ page.menutitle }}</a></li>
             {% endif %}
           {% endfor %}
