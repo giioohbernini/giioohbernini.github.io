@@ -7,7 +7,7 @@ bio: "Projeto open source, feito com foco em espalhar o conhecimento, e para o u
 relpage: projetos
 ---
 
-#Cake Recipe - Um boilerplate para Gulp.
+# Cake Recipe - Um boilerplate para Gulp.
 
 Projeto open source, feito com foco em espalhar o conhecimento, e para o uso do dia-a-dia!
 
