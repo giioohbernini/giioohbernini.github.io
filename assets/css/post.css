@@ -1,0 +1,56 @@
+.post-content > h1 {
+    text-align: left;
+    letter-spacing: -.02em;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: -2.5px;
+    line-height: 1.04;
+    letter-spacing: -.028em;
+}
+
+.post-content > h2, h3 {
+    margin-top: 56px;
+    font-family: sans-serif,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    margin-left: -2px;
+    line-height: 1;
+    letter-spacing: -.02em;
+}
+
+.post-content > p {
+    margin-top: 10px;
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+}
+
+.post-content > ul {
+    margin-top: 29px;
+}
+
+.post-content > ul li {
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    margin-left: 5px;
+    margin-bottom: 14px;
+}
+
+.post-content a {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.6) 50%,rgba(0,0,0,0) 50%);
+    background-repeat: repeat-x;
+    background-size: 2px .1em;
+    background-position: 0 1.07em;
+}
