@@ -1,5 +1,5 @@
 .post-content > h1 {
-    text-align: left;
+    text-align: left!important;
     letter-spacing: -.02em;
     font-weight: 700;
     font-style: normal;
