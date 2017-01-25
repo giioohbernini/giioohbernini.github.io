@@ -6,7 +6,7 @@ permalink: /artigos/
 ---
 
 <div class="content" id="content">
-  {% if site.posts.size == 0 %}
+  {% if site.posts.size == 1 %}
     <h2 class="title" style="text-align: center;">Ainda não tenho nenhum post publicado!</h2>
   {% else %}
     <div id="cards">
@@ -17,7 +17,7 @@ permalink: /artigos/
             <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
             <a href="{{ post.url }}"><p>{{ post.bio }}</p></a>
             <div class="tags">
-              <a href="#">tutorial</a>
+              <a href="/{{ post.relpage }}">{{ post.relpage }}</a>
             </div>
           </div>
         {% endif %}

@@ -1271,6 +1271,7 @@ div.card {
     margin: 2rem 0px;
     position: initial!important;
     opacity: 0;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.60);
 }
 
 div.card>span.articleDate {
@@ -1360,4 +1361,22 @@ div#disqus_thread {
     margin-top: 30px;
     display: inline-block;
     border-bottom: solid 2px #354b72;
+}
+
+.tags {
+    text-transform: capitalize;
+}
+
+.tags > a {
+    background-color: #414f57;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 0% 30% 0% 30%;
+    border-bottom: solid 2px rgba(0, 8, 31, 0.26);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.42);
+}
+
+.card h2 {
+    letter-spacing: 0.3px;
+    font-size: 22px;
 }
