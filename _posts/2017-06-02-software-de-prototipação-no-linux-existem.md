@@ -3,13 +3,13 @@ layout: post
 title:  "Softwares de prototipação no linux, existem?"
 date:   2017-06-02 17:00:00 -0200
 categories: ui
-bio: "Falarei um pouco, sobre dois softwares novos que me superaram a minha expectativa."
+bio: "Falarei um pouco, sobre dois softwares novos que me superaram e MUITO a minha expectativa!!"
 relpage: artigos
 ---
 
 # Softwares de prototipação para linux, existem?
 
-Falarei um pouco, sobre dois softwares novos que me superaram a minha expectativa.
+Falarei um pouco, sobre dois softwares novos que me superaram e MUTIO a minha expectativa.
 
 ### Legal, mas de que softwares/ferramentas estamos falando?
 
