@@ -9,11 +9,11 @@ relpage: artigos
 
 # Softwares de prototipação para linux, existem?
 
-Falarei um pouco, sobre dois softwares novos que superaram e MUTIO a minha expectativa.
+Falarei um pouco, sobre dois softwares novos que superaram e MUITO a minha expectativa.
 
 ## Legal, mas de que softwares/ferramentas estamos falando?
 
-Sem mais delogas, estou falando desses dois:
+Sem mais delongas, estou falando desses dois:
 
 - [Figma](https://www.figma.com/)
 - [Design.io](https://app.designer.io/) / [Gravit.io](https://gravit.io/workspace) (O gravit.io é a versão "cloud" do design.io que eu citarei no vídeo e no texto)
