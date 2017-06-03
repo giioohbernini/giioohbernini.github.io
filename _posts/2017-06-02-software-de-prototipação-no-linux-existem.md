@@ -11,7 +11,7 @@ relpage: artigos
 
 Falarei um pouco, sobre dois softwares novos que superaram e MUTIO a minha expectativa.
 
-### Legal, mas de que softwares/ferramentas estamos falando?
+## Legal, mas de que softwares/ferramentas estamos falando?
 
 Sem mais delogas, estou falando desses dois:
 
@@ -22,7 +22,7 @@ Fiz um vídeo explicando o básico das duas ferramentas, mas para quem preferir 
 
 <iframe style="width: 100% !important; height: 400px" src='https://www.youtube.com/watch?v=FMBFXphyP7w' frameborder='0' allowfullscreen></iframe>
 
-### Links importantes
+## Links importantes
 - Figma
   - [Recriando a logo do instagram](https://www.youtube.com/watch?v=DjdSnBwHgD8)
   - [Components](https://www.youtube.com/watch?v=RLRVv7JXvco)
@@ -39,7 +39,7 @@ Fiz um vídeo explicando o básico das duas ferramentas, mas para quem preferir 
 
 
 
-### Para quem é o publico alvo dessas ferramentas?
+## Para quem é o publico alvo dessas ferramentas?
 
 Acredito que essas ferramentas, mesmo sendo ótimas e MUITO intuitivas elas não tomaram o espaço de ferramentas já conhecidas no mercado, como Sketch e as ferramentas da adobe em geral, mas para usuário mais "casuais", que não nescessáriamente são designers, mas que também precisam prototipar alguma coisa antes de sair fazendo, com certeza essas ferramentas terão seu espaço para essas pessoas.
 
