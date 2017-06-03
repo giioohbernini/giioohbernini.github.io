@@ -39,9 +39,9 @@ Fiz um vídeo explicando o básico das duas ferramentas, mas para quem preferir 
 
 
 
-## Para quem é o publico alvo dessas ferramentas?
+## Qual é o público-alvo dessas ferramentas?
 
-Acredito que essas ferramentas, mesmo sendo ótimas e MUITO intuitivas elas não tomaram o espaço de ferramentas já conhecidas no mercado, como Sketch e as ferramentas da adobe em geral, mas para usuário mais "casuais", que não nescessáriamente são designers, mas que também precisam prototipar alguma coisa antes de sair fazendo, com certeza essas ferramentas terão seu espaço para essas pessoas.
+Acredito que essas ferramentas, mesmo sendo ótimas e MUITO intuitivas elas não tomaram o espaço de ferramentas já conhecidas no mercado, como Sketch e as ferramentas da adobe em geral, mas para usuário mais "casuais", que não nescessariamente são designers, mas que também precisam prototipar alguma coisa antes de sair fazendo, com certeza essas ferramentas terão seu espaço para essas pessoas.
 
 - Pontos positivos
   - Fácil acesso, em qualquer browser da atualidade você pode acessar a ferramenta.
