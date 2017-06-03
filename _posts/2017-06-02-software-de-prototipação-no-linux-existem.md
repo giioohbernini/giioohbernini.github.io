@@ -20,7 +20,7 @@ Sem mais delogas, estou falando desses dois:
 
 Fiz um vídeo explicando o básico das duas ferramentas, mas para quem preferir ler, continue lendo que farei um resumo em texto também! 
 
-<iframe style="width: 100% !important; height: 400px" src='https://www.youtube.com/watch?v=FMBFXphyP7w' frameborder='0' allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FMBFXphyP7w" frameborder="0" allowfullscreen></iframe>
 
 ## Links importantes
 - Figma
