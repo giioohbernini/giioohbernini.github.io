@@ -16,7 +16,7 @@ Falarei um pouco, sobre dois softwares novos que superaram e MUITO a minha expec
 Sem mais delongas, estou falando desses dois:
 
 - [Figma](https://www.figma.com/)
-- [Design.io](https://app.designer.io/) / [Gravit.io](https://gravit.io/workspace) (O gravit.io é a versão "cloud" do design.io que eu citarei no vídeo e no texto)
+- [Design.io](https://app.designer.io/) / [Gravit.io](https://gravit.io/) (O gravit.io é a versão "cloud" do design.io que eu citarei no vídeo e no texto)
 
 Fiz um vídeo explicando o básico das duas ferramentas, mas para quem preferir ler, continue lendo que farei um resumo em texto também! 
 
