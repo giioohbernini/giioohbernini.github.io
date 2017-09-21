@@ -1,0 +1,87 @@
+.box-content
+  display: flex
+  flex-wrap: wrap
+  padding: 3em 0 5em
+
+  @media mq-tablet
+    justify-content: center
+
+.post-box
+  transform: translateY(250px)
+  opacity: 0
+  max-width: 450px
+  border: #ccc solid 1px
+  box-shadow: 2px 2px 2px 2px #eee
+  width: 100%
+  margin: 1em 2em
+  border-radius: 5px
+  display: flex
+  min-height: 200px
+  transition: all ease 1s
+
+  &.-firstbox
+    max-width: 100%
+
+    > .rightbox
+      max-width: 18%
+
+  @media mq-mobile
+    flex-wrap: wrap
+
+  > .rightbox
+    width: 100%
+    background-color: #354b72
+    max-width: 30%
+
+    @media mq-mobile
+      max-width: 100%
+
+    > .rightcontent
+      padding: 0.6em
+      color: #fff
+
+      @media mq-mobile
+        display: flex
+        flex-wrap: wrap
+
+      > .tag
+        border: solid 1px
+        border-radius: 20px
+        text-align: center
+        transition: background 0.4s
+        padding: 0.2em
+        max-width: 115px
+        min-width: 90px
+        margin: 16px auto
+
+        @media mq-mobile
+          margin: 0 3px
+          padding: 0.1em
+
+        &:hover
+          background-color: white
+          color: #354b72
+
+  > .leftbox
+    width: 100%
+    border-right: solid 1px
+
+    @media mq-mobile
+      border-right: none
+
+    > .leftcontent
+      padding: 1em
+
+      > .date
+        font-size: smaller
+        color: #aaaaaa
+        letter-spacing: 2px
+        margin: 0.4em 0.15em
+
+      > .title
+        color: #354B72
+        font-weight: lighter
+        margin: 0
+
+      > .bio
+        color: #aaaaaa

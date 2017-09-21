@@ -1,0 +1,12 @@
+<div class="blog-post">
+  <h1 class="pageTitle">Tags do Blog</h1>
+  <% if(site.tags && site.tags.length) {%>
+    <%- list_tags(site.tags, {
+      show_count: false,
+      style: 'list',
+      class: 'tags'
+    }) %>
+  <%} else {%>
+    <h1>Without Tags</h1>
+  <% } %>
+</div>

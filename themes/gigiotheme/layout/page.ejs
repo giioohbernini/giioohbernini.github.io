@@ -1,0 +1,6 @@
+<% if (page.title == "categories") { %>
+  <%- partial('_partial/categories-page') %>
+<%} else if(page.title == "tags") {%>
+  <%- partial('_partial/tags-page') %>
+<%}%>
+<%- partial('_partial/article-full', {item: page}) %>

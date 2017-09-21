@@ -1,0 +1,94 @@
+.header
+  height: 100vh
+  background-color: rgb(53,75,114)
+  display: flex
+  align-items: center
+  justify-content: center
+
+  &.--post
+    height: 55vh
+
+.post-header
+  color: #ffffff
+  text-align: center
+  width: 50rem
+
+  @media mq-mobile
+    margin-top: 40px
+
+  > .title
+    font-size: 3.75rem
+    text-shadow: 3px 3px #102345
+    text-transform: capitalize
+
+    @media mq-mobile
+      font-size: 1.85rem
+
+  > .subtitle
+    font-weight: lighter
+
+.header-content
+  margin-top: 45
+  background-color: #ffffff
+  padding: 0em 1em 1em 1em
+  max-width: 100%
+  min-width: 25em
+  border-radius: 5px
+  text-align: center
+  z-index: 1
+  opacity: 0.95
+  border-radius: 4px
+
+  @media mq-mobile
+    min-width: 20em
+    margin-top: 0
+
+  > .title
+    text-transform: uppercase
+    font-size: 1.65rem
+    letter-spacing: 0.15em
+    color: #313f47
+    line-height: 1.5
+    font-weight: lighter
+    margin: 0
+
+  > .description
+    color: #414f57
+    margin-top: 0
+    letter-spacing: 0.1em
+    font-size: 0.9rem
+
+  > .avatar
+    position: relative
+    display: block
+    margin-bottom: 1.5em
+
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      top: 50%
+      left: -1em
+      width: calc(100% + 2em)
+      height: 1px
+      z-index: -1
+      background: #c8cccf
+
+    > img
+      display: block
+      margin: 0 auto
+      border-radius: 100%
+      box-shadow: 0 0 0 1.5em #ffffff
+
+.social-box
+  display: flex
+  justify-content: center
+  padding: .8em 0
+
+  > .icon
+    text-decoration: none
+    position: relative
+    display: block
+    width: 3.50em
+    height: 3.50em
+    margin: 0 .4em

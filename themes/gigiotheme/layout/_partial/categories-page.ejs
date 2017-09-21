@@ -1,0 +1,12 @@
+<div class="blog-post">
+  <h1 class="pageTitle">Categorias</h1>
+  <% if(site.categories && site.categories.length) {%>
+    <%- list_categories(site.categories, {
+      show_count: false,
+      style: 'list',
+      class: 'category'
+    }) %>
+  <%} else {%>
+    <h1>Without category</h1>
+  <% } %>
+</div>

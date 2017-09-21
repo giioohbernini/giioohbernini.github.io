@@ -1,0 +1,24 @@
+<html>
+<%- partial('_partial/head') %>
+<body>
+  <%- partial('_partial/menu') %>
+
+  <% if(is_home()) {%>
+    <%- partial('_partial/header') %>
+  <%} else if (is_post()) {%>
+    <%- partial('_partial/post-header') %>
+  <%} else if (is_category() || is_tag()) {%>
+    <%- partial('_partial/page-header') %>
+  <%} else {%>
+    <%- partial('_partial/header') %>
+  <%}%>
+
+  <section class="content">
+      <%- body %>
+  </section>
+
+  <%- partial('_partial/footer') %>
+
+  <%- partial('_partial/after-footer') %>
+</body>
+</html>

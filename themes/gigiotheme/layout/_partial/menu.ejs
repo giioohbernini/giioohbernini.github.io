@@ -1,0 +1,30 @@
+<nav class="nav-bar">
+  <div class="navitem"><a href="/"><img class="small" src="/img/gicon.png" alt="Logo do blog"></a></div>
+
+  <div class="navitem main">
+    <% for (var i in theme.menu) { %>
+      <% if(i == "Home") { %>
+        <div class="navitem -featured">
+          <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+        </div>
+      <% } else { %>
+        <a class="item" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+      <% } %>
+    <% } %>
+  </div>
+
+  <div class="navitem"><a class="navButton" onclick="openNav()">&#9776;</a></div>
+</nav>
+
+<div class="side-nav">
+  <div class="navitem -submenu">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Fechar Menu</a>
+  </div>
+  <% for (var s in theme.submenu) { %>
+    <div class="navitem -submenu">
+      <a href="<%= url_for(theme.submenu[s]) %>"><%= s %></a>
+    </div>
+  <% } %>
+</div>
+<div class="overlay"></div>
+

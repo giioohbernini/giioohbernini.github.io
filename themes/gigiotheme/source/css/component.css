@@ -1,0 +1,27 @@
+#grid .post-box {
+  opacity: 0;
+}
+
+#grid .post-box.shown,
+.no-js #grid .post-box,
+.no-cssanimations #grid .post-box{
+  opacity: 1;
+}
+
+/* Effect 2: Move Up */
+#grid > .post-box.animate {
+  -webkit-transform: translateY(200px);
+  transform: translateY(200px);
+  -webkit-animation: moveUp 0.65s ease forwards;
+  animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+  0% { }
+  100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+  0% { }
+  100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+}
