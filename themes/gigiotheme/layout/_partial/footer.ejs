@@ -1,0 +1,11 @@
+<footer class="footer">
+    <p class="footer-content">Feito com Hexo</p>
+</footer>
+
+<%- js('js/index.js') %>
+
+<% if(!is_post() && !is_page()) { %>
+  <%- js('js/slide.js') %>
+<% } %>
+
+<%- js('js/parallax.js') %>

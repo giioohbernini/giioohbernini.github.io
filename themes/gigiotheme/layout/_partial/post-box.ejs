@@ -1,0 +1,32 @@
+<div class="post-box <%-quantifier%>">
+  <div class="leftbox">
+    <div class="leftcontent">
+      <p class="date">
+        <%= item.date.format(config.date_format) %>
+      </p>
+      <h2 class="title">
+        <a href="<%- config.root %><%- item.path %>">
+          <%- item.title %>
+        </a>
+      </h2>
+      <p class="bio">
+        <%= item.bio  %>
+      </p>
+    </div>
+  </div>
+  <div class="rightbox">
+    <div class="rightcontent">
+      <% if(item.tags && item.tags.length) { %>
+        <p class="tag">
+          <%- list_tags(item.tags, {
+            show_count: false,
+            separator: '</p><p class="tag">',
+            class: 'tag',
+            style: 'p',
+            amount: 4
+          }) %>
+        </p>
+      <% } %>
+    </div>
+  </div>
+</div>

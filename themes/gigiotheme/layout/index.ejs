@@ -1,0 +1,5 @@
+<div class="box-content" id="grid">
+    <% page.posts.each(function(item){ %>
+        <%- partial('_partial/post-box', {item: item, quantifier: ""}) %>
+    <% }); %>
+</div>

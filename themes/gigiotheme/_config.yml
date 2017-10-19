@@ -1,0 +1,20 @@
+# Header
+menu:
+  Artigos: /categorias/artigos
+  Home: /
+  Projetos: /categorias/projetos
+submenu:
+  Home: /
+  Artigos: /categorias/artigos
+  Projetos: /categorias/projetos
+  Sobre mim: /about
+  Feed: /atom.xml
+
+# Disqus Comments Shortname
+disqus_shortname: giovanni-bernini
+
+autoprefixer:
+  exclude:
+    - '*.min.css'
+  browsers:
+    - 'last 2 versions'

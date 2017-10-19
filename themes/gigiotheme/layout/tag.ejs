@@ -1,0 +1,8 @@
+<% var text = "" %>
+<% if (page.posts.length == 1) { text = "-firstbox" } else { text = "" } %>
+<div class="box-content">
+    <% page.posts.each(function(item){ %>
+        <%- partial('_partial/post-box', {item: item, quantifier: text}) %>
+    <% }); %>
+</div>
+<%- partial('_partial/pagination') %>

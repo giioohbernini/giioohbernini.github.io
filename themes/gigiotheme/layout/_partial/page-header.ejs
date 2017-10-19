@@ -1,0 +1,9 @@
+<div class="header --post">
+  <div class="post-header">
+    <% if(is_tag()) {%>
+      <h1 class="title"><%=page.tag%></h1>
+    <%} else {%>
+      <h1 class="title"><%=page.category%></h1>
+    <%}%>
+  </div>
+</div>

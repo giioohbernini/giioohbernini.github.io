@@ -1,0 +1,82 @@
+.overlay {
+  position: fixed
+  width: 100%
+  height: 100%
+  top: 0
+  right: 0
+  pointer-events: none
+  background: transparent
+  z-index: 17
+  transition: background .25s ease
+}
+
+.nav-bar
+  display: flex
+  justify-content: space-between
+  align-items: center 
+  height: 45px
+  background-color: #fff
+  position: fixed
+  width: 100%
+  padding: .625rem 1.25rem
+  box-shadow: 0 -3px 9px #000
+  z-index: 5
+  font-size: 1rem
+  transition: .3s opacity
+
+  a
+    color: #000
+
+.navitem
+
+  &.-submenu
+    border-bottom: solid 1px #ccc
+
+    a
+      color: #ffffff
+      display: block
+      padding: 1.25em
+      transition: background .25s ease
+
+      &:hover
+        background-color: #ffffff
+        color: #354b72
+
+  > .navButton
+    cursor: pointer
+
+  &.main
+    @media mq-mobile
+      display: none
+
+  > .item
+    padding: 3em
+
+  &.-featured
+    background-image: url(/img/triangulo.svg)
+    display: inline-flex
+    position: absolute
+    width: 110px
+    background-repeat: no-repeat
+    justify-content: center
+    align-items: center
+    top: -30px
+    margin-left: -58px
+    height: 110px
+    background-position: -20px
+
+    a
+      color: white
+      margin-bottom: 5px
+
+.side-nav
+  height: 100%
+  width: 250px
+  transform: translateX(250px)
+  position: fixed
+  z-index: 18
+  top: 0
+  right: 0
+  background-color: #354b72
+  overflow-x: hidden
+  transition: all .25s ease
