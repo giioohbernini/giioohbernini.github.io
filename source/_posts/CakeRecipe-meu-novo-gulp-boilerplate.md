@@ -1,6 +1,6 @@
 ---
 title: CakeRecipe meu novo gulp boilerplate
-date: 2017-06-13 15:28:59
+date: 2017-01-19 13:26:07
 bio: Projeto open source, feito com foco em espalhar o conhecimento, e para o uso do dia-a-dia
 tags:
   - labs

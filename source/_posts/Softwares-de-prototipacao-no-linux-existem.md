@@ -1,6 +1,6 @@
 ---
 title: 'Softwares de prototipação no linux, existem?'
-date: 2017-06-13 15:33:25
+date: 2017-06-02 12:33:25
 bio: Falarei um pouco, sobre dois softwares novos que superaram e MUITO a minha expectativa!!
 tags: Linux
 categories:
