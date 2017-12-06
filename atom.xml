@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Giovanni Bernini - Desenvolvedor Web</title>
+  <subtitle>Blog pessoal de um desenvolvedor web</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://giovannibernini.com.br/"/>
+  <updated>2017-12-06T18:31:31.408Z</updated>
+  <id>https://giovannibernini.com.br/</id>
+  
+  <author>
+    <name>Giovanni Bernini</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Softwares de prototipação no linux, existem?</title>
+    <link href="https://giovannibernini.com.br/Softwares-de-prototipacao-no-linux-existem/"/>
+    <id>https://giovannibernini.com.br/Softwares-de-prototipacao-no-linux-existem/</id>
+    <published>2017-06-02T15:33:25.000Z</published>
+    <updated>2017-12-06T18:31:31.408Z</updated>
+    
+    <content type="html"><![CDATA[<p>Sem enrolações, hoje irei falar desses dois caras</p>
+<ul>
+<li><a href="https://www.figma.com/" target="_blank" rel="external">Figma</a></li>
+<li><a href="https://app.designer.io/" target="_blank" rel="external">Design.io</a> / <a href="https://gravit.io/workspace" target="_blank" rel="external">Gravit.io</a> (O gravit.io é a versão “cloud” do design.io que eu citarei no vídeo e no texto)</li>
+</ul>
+<p>Fiz um vídeo explicando o básico das duas ferramentas, mas para quem preferir ler, continue lendo que farei um resumo em texto também! </p>
+<div class="embed-container"><iframe style="width: 100%; height: 400px;" src="https://www.youtube.com/embed/FMBFXphyP7w" frameborder="0" allowfullscreen></iframe></div>
+
+<h2 id="Links-importantes"><a href="#Links-importantes" class="headerlink" title="Links importantes"></a>Links importantes</h2><ul>
+<li><p>Figma</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=DjdSnBwHgD8" target="_blank" rel="external">Recriando a logo do instagram</a></li>
+<li><a href="https://www.youtube.com/watch?v=RLRVv7JXvco" target="_blank" rel="external">Components</a></li>
+<li><a href="https://www.youtube.com/watch?v=b-xDRjf5B-8" target="_blank" rel="external">Trabalhando com vetores</a></li>
+<li><a href="https://help.figma.com/" target="_blank" rel="external">Documentação</a></li>
+<li><a href="https://material.uplabs.com/posts/onboarding-icons-animation-interface" target="_blank" rel="external">Exemplos</a></li>
+</ul>
+</li>
+<li><p>Design.io / Gravit.io</p>
+<ul>
+<li><a href="https://medium.com/gravitdesigner/design-a-professional-logo-using-gravit-835408f7fd9d" target="_blank" rel="external">Criando uma logo</a></li>
+<li><a href="https://www.youtube.com/channel/UC_HHKxxyeAzbxWDhQw8b7jA/videos" target="_blank" rel="external">Canal do YouTube deles, com muita informação</a></li>
+<li><a href="https://www.youtube.com/watch?v=NelyeOMVufs" target="_blank" rel="external">Criando ícones</a></li>
+<li><a href="https://dribbble.com/gravit" target="_blank" rel="external">Dribbble</a></li>
+<li><a href="https://gravit.io/discover" target="_blank" rel="external">Exemplos</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="Qual-e-o-publico-alvo-dessas-ferramentas"><a href="#Qual-e-o-publico-alvo-dessas-ferramentas" class="headerlink" title="Qual é o público-alvo dessas ferramentas?"></a>Qual é o público-alvo dessas ferramentas?</h2><p>Acredito que essas ferramentas, mesmo sendo ótimas e MUITO intuitivas elas não tomaram o espaço de ferramentas já conhecidas no mercado, como Sketch e as ferramentas da adobe em geral, mas para usuário mais “casuais”, que não nescessariamente são designers, mas que também precisam prototipar alguma coisa antes de sair fazendo, com certeza essas ferramentas terão seu espaço para essas pessoas.</p>
+<ul>
+<li><p>Pontos positivos</p>
+<ul>
+<li>Fácil acesso, em qualquer browser da atualidade você pode acessar a ferramenta.</li>
+<li>Cloud, isso somado com o ponto acima, é um combo enorme! Além de você ter acesso em qualquer lugar praticamente, você ainda tem o seu projeto disponivel do lugar que você parou, em qualquer lugar.</li>
+<li>Planos Free, tanto o figma quando o gravit tem planos free excelentes, quase não existe a necessidade de adquirir o plano pago.</li>
+</ul>
+</li>
+<li><p>Pontos negativos</p>
+<ul>
+<li>Eu sinceramente não consegui enxergar pontos negativos, acredito que no ponto de vista de um designer, seja mais fácil atribuir os pontos negativos, mas para mim não teve nenhum!!</li>
+</ul>
+</li>
+</ul>
+<p>Esse blog é opensource!! Então caso veja algo errado ou queira acrescentar algo é so criar uma issue ou mandar um PR lá no <a href="https://github.com/giioohbernini/giioohbernini.github.io/" target="_blank" rel="external">github</a>!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Sem enrolações, hoje irei falar desses dois caras&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.figma.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Figma&lt;/a&gt;&lt;
+    
+    </summary>
+    
+      <category term="artigos" scheme="https://giovannibernini.com.br/categorias/artigos/"/>
+    
+    
+      <category term="Linux" scheme="https://giovannibernini.com.br/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CakeRecipe meu novo gulp boilerplate</title>
+    <link href="https://giovannibernini.com.br/CakeRecipe-meu-novo-gulp-boilerplate/"/>
+    <id>https://giovannibernini.com.br/CakeRecipe-meu-novo-gulp-boilerplate/</id>
+    <published>2017-01-19T15:26:07.000Z</published>
+    <updated>2017-12-06T18:31:31.408Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Cake-Recipe-Um-boilerplate-para-Gulp"><a href="#Cake-Recipe-Um-boilerplate-para-Gulp" class="headerlink" title="Cake Recipe - Um boilerplate para Gulp."></a>Cake Recipe - Um boilerplate para Gulp.</h1><p>Projeto open source, feito com foco em espalhar o conhecimento, e para o uso do dia-a-dia!</p>
+<h2 id="Tecnologias-usadas"><a href="#Tecnologias-usadas" class="headerlink" title="Tecnologias usadas:"></a>Tecnologias usadas:</h2><ul>
+<li>Gulp</li>
+<li>JavaScipt (Node)</li>
+<li>Sass</li>
+</ul>
+<h2 id="Funcoes"><a href="#Funcoes" class="headerlink" title="Funções:"></a>Funções:</h2><ul>
+<li>Automatiza a minificação do seus códigos HTML/CSS/JS</li>
+<li>Alta performance para desenvolvimento com o uso do <code>gulp watch</code></li>
+<li>Transpila SASS para CSS</li>
+<li>Minifica imagens</li>
+</ul>
+<p>Esse projeto está disponível no <a href="https://github.com/giioohbernini/cakerecipe" target="_blank" rel="external">Github</a> <del>e com o coração aberto para pull request :D</del></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Cake-Recipe-Um-boilerplate-para-Gulp&quot;&gt;&lt;a href=&quot;#Cake-Recipe-Um-boilerplate-para-Gulp&quot; class=&quot;headerlink&quot; title=&quot;Cake Recipe - Um boi
+    
+    </summary>
+    
+      <category term="projetos" scheme="https://giovannibernini.com.br/categorias/projetos/"/>
+    
+    
+      <category term="labs" scheme="https://giovannibernini.com.br/tags/labs/"/>
+    
+      <category term="gulp" scheme="https://giovannibernini.com.br/tags/gulp/"/>
+    
+  </entry>
+  
+</feed>
