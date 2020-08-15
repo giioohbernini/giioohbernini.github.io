@@ -63,4 +63,4 @@ Essa solução resolveu muito bem o problema e espero que ajude na criação de 
 
 Vou deixar abaixo o link para o próximo post, onde irei mostrar como construir do zero, passo a passo, toda a estrutura que eu descrevi ao longo desse artigo, com uma aplicação web que utilizará React, mas que pode ter como base qualquer outra biblioteca ou até mesmo vanilla.
 
-[Próximo post](https://medium.com/@giovannibernini/como-transformar-uma-aplica%C3%A7%C3%A3o-web-react-em-um-aplicativo-nativo-da-noite-para-o-dia-parte-2-36d9adb5b3ad)
+[Próximo post](/transformando-uma-aplicacao-react-em-um-aplicativo-nativo-parte-2)
