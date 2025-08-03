@@ -27,7 +27,7 @@ O site é completamente estático e organizado da seguinte forma:
    python -m http.server 8000
    ```
 
-2. Acesse `http://localhost:8000` no navegador ou utilize `curl -I http://localhost:8000` para verificar a resposta.
+2. Acesse `http://127.0.0.1:8000` no navegador ou utilize `curl -I http://127.0.0.1:8000` para verificar a resposta.
 
 ## Como fazer deploy
 
